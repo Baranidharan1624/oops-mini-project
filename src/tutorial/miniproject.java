@@ -29,7 +29,7 @@ class IncomeTransaction extends Transaction {
 
     @Override
     public void process() {
-        System.out.println("Income Added: " + amount + " (" + description + ")");
+        System.out.println("Income Added : " + amount + " (" + description + ")");
     }
 }
 
